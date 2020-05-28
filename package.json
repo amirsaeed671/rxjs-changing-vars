@@ -1,0 +1,31 @@
+{
+  "name": "rxjs-changing-vars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode production",
+    "deploy": "webpack --mode production && git add . && git commit -m 'latest build' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsaeed671/rxjs-changing-vars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsaeed671/rxjs-changing-vars/issues"
+  },
+  "homepage": "https://github.com/amirsaeed671/rxjs-changing-vars#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
